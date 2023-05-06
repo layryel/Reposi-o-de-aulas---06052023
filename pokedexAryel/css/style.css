@@ -1,0 +1,53 @@
+body{
+    background: #f0f2f5;
+}
+
+.wrapper{
+    max-width: 1024px;
+    min-height: 100vh;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 48px auto;
+
+    background: red;
+}
+
+.pokemon-container{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+
+    margin-top: 24px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5;
+    background-image: url("../assets/pokeball.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50px -30px;
+    text-align: center;
+    
+    cursor: pointer;
+    }
+    
+.card .sprite {
+    width: 100%;
+    image-rendering: pixelated;
+    }
+    
+    
+.card .name {
+    text-transform: capitalize;
+    font-size: 18px;
+    }
+    
